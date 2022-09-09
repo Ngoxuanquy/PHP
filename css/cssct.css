@@ -1,0 +1,1471 @@
+/* img .img {
+    width: 200px;
+    height: 200px;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    /* width: 1500px; */
+}
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width: 100%;
+}
+
+.title_1 {
+    font-size: 40px;
+    font-family: Fredericka the Great, cursive;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+.h2 {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.header {
+    width: 100%;
+    height: 90px;
+    background-color: azure;
+}
+
+.dn {
+    position: absolute;
+    right: 40px;
+    top: 35px;
+    z-index: 10;
+    color: black;
+}
+
+.timkiem_chinh {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(71, 68, 68);
+    position: relative;
+}
+
+img.img {
+    width: 500px;
+    height: auto;
+    margin-left: 200px;
+    margin-top: -40px;
+}
+
+input {
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+    /* margin-left: 100px; */
+    font-size: 25px;
+}
+
+button {
+    width: 70px;
+    height: 30px;
+    font-size: 25px;
+}
+
+.soluong {
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+#Them {
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+#Mua {
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.GioiThieu {
+    font-size: 22px;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 80%;
+    /* margin-bottom:50px; */
+}
+
+.logo {
+    color: #222;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/* //footer */
+
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: #111;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* margin-top: 50px; */
+}
+
+footer .container .noi-dung {
+    margin-right: 30px;
+}
+
+footer .container .noi-dung.about {
+    width: 40%;
+}
+
+footer .container .noi-dung.about h2 {
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+footer .container .noi-dung.about h2:before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+
+footer .container .noi-dung.about p {
+    color: #999;
+}
+
+.social-icon {
+    margin-top: 20px;
+    display: flex;
+}
+
+.social-icon li {
+    list-style: none;
+}
+
+.social-icon li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.social-icon li a:hover {
+    background: #f00;
+}
+
+.social-icon li a .fa {
+    color: #fff;
+    font-size: 20px;
+}
+
+.links h2 {
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.links h2 {
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.links h2::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+
+.links {
+    position: relative;
+    width: 25%;
+}
+
+.links ul li {
+    list-style: none;
+}
+
+.links ul li a {
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.links ul li a:hover {
+    color: #fff;
+}
+
+.contact h2 {
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.contact h2::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+
+.contact {
+    width: calc(35% - 60px);
+    margin-right: 0 !important;
+}
+
+.contact .info {
+    position: relative;
+}
+
+.contact .info li {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.contact .info li span:nth-child(1) {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contact .info li span {
+    color: #999;
+}
+
+.contact .info li a {
+    color: #999;
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    margin-top: 16px;
+    transition: all 200ms ease-in;
+    cursor: pointer;
+}
+
+.btn--primary {
+    background: #222;
+    color: #fff;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+    border-radius: 2px;
+    padding: 8px 24px;
+}
+
+.btn--primary:hover {
+    background: #f00;
+}
+
+.btn--primary:active {
+    background: #f00;
+    box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, .2);
+}
+
+.form__field {
+    width: 90%;
+    background: #fff;
+    color: #a3a3a3;
+    font: inherit;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .1);
+    border: 0;
+    outline: 0;
+    padding: 8px 4px;
+}
+
+.title_ten {
+    font-size: 22px;
+    margin-top: -20px;
+    margin-left: 170px;
+    font-family: Fredericka the Great, cursive;
+}
+
+.btn_Gia {
+    width: 120px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 180px;
+    margin-top: 50px;
+    border: 1px solid while;
+}
+
+#Gia {
+    border: 1px solid while;
+}
+
+.dn {
+    font-size: 20px;
+    /* position: relative; */
+    margin-right: 30px;
+    margin-top: 6px;
+}
+
+.phuthem {
+    width: 200px;
+    height: 30px;
+    color: black;
+    background-color: coral;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    right: -200px;
+    display: none;
+}
+
+.title {
+    border-radius: 200px;
+    width: 70px;
+    height: 70px;
+    border-radius: 200px;
+    margin-top: 10px;
+    margin-left: 180px;
+}
+
+#Gia {
+    color: coral;
+    font-size: 30px;
+}
+
+
+/* //test */
+
+body {
+    /* padding: 0px; */
+    /* background-color: #97b8ed; */
+}
+
+
+/* chi tiết ảnh */
+
+.thu1 {
+    width: 100px;
+    height: 100px;
+    margin-top: 560px;
+    margin-left: 230px;
+    position: absolute;
+}
+
+.thu2 {
+    width: 100px;
+    height: 100px;
+    margin-top: 560px;
+    margin-left: 360px;
+    position: absolute;
+}
+
+.thu3 {
+    width: 100px;
+    height: 100px;
+    margin-top: 560px;
+    margin-left: 490px;
+    position: absolute;
+}
+
+.thu4 {
+    width: 100px;
+    height: 100px;
+    margin-top: 680px;
+    margin-left: 290px;
+    position: absolute;
+}
+
+.thu5 {
+    width: 100px;
+    height: 100px;
+    margin-top: 680px;
+    margin-left: 420px;
+    position: absolute;
+}
+
+@media (max-width: 768px) {
+    .Vay {
+        margin-top: 700px;
+    }
+    footer .container {
+        flex-direction: column;
+        display: inline-block;
+    }
+    footer .container .noi-dung {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    footer .container,
+    .noi-dung.about,
+    .links,
+    .contact {
+        width: 40%;
+    }
+    .container .noi-dung p {
+        display: inline-block;
+        width: 230%;
+    }
+    .header h2 {
+        display: none;
+    }
+    .title_1 {
+        position: absolute;
+        left: 0;
+        margin-left: 10px;
+    }
+    .header h2 {
+        display: none;
+    }
+    #img {
+        display: inline-block;
+        position: relative;
+        left: -200px;
+        width: 75%;
+        /* top: -500px; */
+    }
+    #Them {
+        position: relative;
+        left: 0px;
+        margin-left: 0px;
+    }
+    #Mua {
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 60px;
+    }
+    .td_left .title_ten {
+        width: 400px;
+        position: relative;
+        left: 0;
+        margin-left: 120px;
+    }
+    #thu1 {
+        margin-left: 40px;
+    }
+    #thu2 {
+        margin-left: 170px;
+    }
+    #thu3 {
+        margin-left: 300px;
+    }
+    #thu4 {}
+    .giohang {
+        margin-left: -120px;
+    }
+    .logo {
+        margin-left: -150px;
+    }
+    form .Vay {
+        display: inline-block;
+        position: relative;
+        bottom: 700px;
+    }
+    .img_vay {
+        /* margin-top:700px; */
+    }
+}
+
+.h2:hover {
+    color: coral;
+}
+
+.magnify {
+    /* position: absolute; */
+    transform: translate(-50%, -50%);
+    /* top: 20%;
+        left: 20%; */
+    margin-top: 300px;
+    margin-left: 100px;
+    display: inline-block;
+}
+#img {
+    width: 70%;
+    height: 450px;
+    margin-left: 500px;
+    margin-top: 290px;
+    z-index: -1;
+}
+ .magnify {
+            /* position: absolute; */
+            transform: translate(-50%, -50%);
+            top: 20%;
+            left: 20%;
+            margin-top: 35px;
+            margin-left: 10px;
+
+            display: inline-block;
+        }
+        
+        .magnify .magnified {
+            display: block;
+            z-index: 10;
+            margin: auto;
+            width: 600px;
+            height: 360px;
+            /* border: 5px solid #fff; */
+            margin-left: 0px;
+            /* position: absolute; */
+            top: 0px;
+          
+
+        }
+        .header{
+            height: 80px;
+              margin-left: 0px;
+          display: grid;
+              grid-template-columns: 20% 10% 10% 12% 10% 23% 5%  15% ;
+         /* grid-column-gap: -20px; */
+            text-align: center;
+         justify-content: center;
+        }   
+        .magnify .magnifier {
+            height: 250px;
+            width: 250px;
+            position: absolute;
+            z-index: 20;
+            border: 4px solid white;
+            background-size: 400%;
+            background-repeat: no-repeat;
+            margin-left: 100px !important;
+            margin-top: 100px !important;
+            pointer-events: none;
+            position: fixed;
+        
+        }
+        .img_img{
+            display: none;
+            width: 200px;
+              height: 250px;
+              margin-left: -10px;
+        }
+    .td_left {
+        width: 70%;
+        position: relative;
+        top: 80px;
+        left: 100px;
+        display: inline;
+        /* border: 3px solid rgb(223, 216, 216); */
+        font-size:13px;
+        /* text-align: center; */
+            /* justify-content: center; */
+
+        /* margin-top: -400px; */
+    }
+    #Them{
+        width: 40%;
+        transition: 1s linear  ;
+
+    }
+    #Them:hover, #Mua:hover {
+        background-color: coral;
+        color: while;
+        box-shadow: 0 0 10px coral, 0 0 40px coral, 0 0 88px coral;
+        transition: 1s linear  ;
+
+    }
+    .Gia{
+        margin-left:140px;
+        /* margin-top: -20px; */
+        color: coral
+    }
+    hr{
+        margin-top:10px;
+        margin-left:65px;
+    }
+
+    #gia{
+        margin-left: 100px;
+        color: coral;
+        margin-top: -20px;
+    }
+    hr{
+        margin-right: 70px;
+    }
+    .img_img{
+        display: none;
+    }
+    #img_fake{
+        display: none;
+
+    }
+#img_chinh{
+    width: 200px;
+    height: 250px;
+    margin-top: 100px;
+}
+#td_aaa{}
+
+.an{
+    display: none;
+}
+
+#anh_phu{
+    width: 200%;
+}
+.test{
+    width: 100%;
+}
+#hr{
+    width: 70%;
+    margin-left: -100px;
+}
+
+    #mau1,#mau2,#mau3,#mau4 {
+    width:30px; 
+    height:35px; 
+    margin-left: 30px;
+
+    }
+    #size1, #size2, #size3, #size4{
+        width:30px; 
+        height:35px;
+    margin-left: 30px;
+
+    }
+    .radio_left{
+        height: 40px;
+        position: relative;
+        top: -55px;
+        left: 50px;
+    }
+    .title_ten{
+        margin-top: 20px;
+    }
+  .GioiThieu{
+    font-size: 18px;
+  }
+
+  .soluong{
+    width: 100%;
+    position: relative;
+    left:-50px;
+    top: 40px;
+ 
+  }
+  #box_soluong{
+    margin-top: 0px;
+    font-size: 13px;
+
+  }
+  .btn_Gia{
+    /* margin-top: -20px; */
+    padding: 0px 20px 30px 0px;
+
+  }
+  #submit{
+    width: 10%;
+    font-size: 17px;
+    height: 22px;
+    border-radius: 3px;
+    margin-top: 4px;
+
+  }
+  #Tim{
+    width: 50%;
+    height: 18px;
+    border-radius: 3px;
+    transition: 1s linear  ;
+
+
+  }
+  .dn{
+    margin-top: 40px;
+
+  }
+  .tendn{
+    margin-top: 40px;
+  }
+  .test_soluong{
+    width: 200px;
+     /* border: 1px solid black; */
+     width: 101.5px;height:33px;display: inline-block;
+     margin-top:10px;
+    margin-left: 200px;
+        padding: 0px;
+
+  }
+  #cong:hover{
+    background-color: coral;
+    transition: 1s linear  ;
+
+  }
+  #tru:hover{
+    background-color: coral;
+    transition: 1s linear  ;
+
+  }
+  #cong, #tru {
+        position: relative;
+        top: -30px;
+        padding: 0px;
+        color: while;
+        background-color: #FFFFFF;
+        height: 32px;
+    
+    }
+    #so{
+        position: relative;
+        top: -30px;
+        padding: 0px;
+        color: while;
+        background-color: #FFFFFF;
+    }
+    .Vay{
+        display: grid;
+              grid-template-columns: 17% 17% 17% 17% 17%;
+         /* grid-column-gap: -20px; */
+            text-align: center;
+         justify-content: center;
+    }
+  
+  /* #anh_phu{
+    display: grid;
+     grid-template-columns: 17% 17% 17% 17% 17%;
+      grid-column-gap: 20px;
+  } */
+@media (max-width: 768px) {
+    
+    .dn{
+        display: none;
+    }
+    .test_soluong{
+        width: 100%;
+     /* border: 1px solid black; */
+     /* width: 113.5px; */
+     height:33px;
+    
+     margin-top:30px;
+     margin-left: 20px;
+    }
+    .header{
+            height: 80px;
+              margin-left: 0px;
+          display: grid;
+              grid-template-columns: 20% 70% 10%;
+         /* grid-column-gap: -20px; */
+            text-align: center;
+         justify-content: center;
+        } 
+    .magnify{
+        display: none;
+    }
+   .tr{
+    /* display: none; */
+   }
+    *{
+       margin: 0;
+    }
+    bode{
+        width: 100%;
+    }
+    .conterner{
+        display: flex;
+        flex-direction: column;
+    }
+    td #zoom{
+        width: 500px;
+    }
+    .conterner{
+        width: 100%;
+    }
+    .img{
+        /* position: relative;
+        left: 10px;
+        top: 10px; */
+    }
+    .Vay {
+        /* margin-top: 700px; */
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 550px;
+ 
+    }
+    .img_vay{
+         /* margin-top: 700px; */
+/*          
+         display: flex;
+         flex-direction: column; */
+         width: 40%;
+        display: inline-block;
+    }
+    #hr{
+        position: relative;
+        top: 00px;
+    }
+    .test{
+      
+        width: 30%;
+        position: relative;
+        left: -140px;
+        top: 600px;
+        display: inline-block;
+        
+        
+    }
+    .title{
+        position: relative;
+        left: -150px;
+    }
+   
+    #post{
+        position: relative;
+        /* left: -160px; */
+        top: -75px;
+    }
+    #gio{
+        position: relative;
+        left: -25px;
+        top: -78px;
+    }
+    #img{
+        width: 60%;
+        height: 350px;
+        position: relative;
+        top: 50px;
+    }
+    .magnifier{
+        display: none;
+    }
+    .td_left{
+        margin-top: -100px;
+    }
+    .td_left .title_ten{
+        position: relative;
+        left: -18%;
+        font-size: 20px;
+        display: block;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #Them{
+        width: 65%;
+        /* position: fixed; */
+        left: 00px;
+        bottom: 0px;
+        z-index: 1000000;
+    border-radius: 5px;
+        
+    }
+    #Mua{
+        width: 35%;
+
+        /* position: fixed; */
+        right: 0px;
+        bottom:0px;
+
+        z-index: 100;
+    border-radius: 5px;
+
+    }
+    #đ{
+        position: relative;
+        left: 180px;
+        top:-36px;
+    }
+    input[type="radio"]{
+        width: 10%;
+    }
+    hr{
+        position: relative;
+        left: 0px;
+        top: 150px;
+        width: 80%;
+    }
+    .gia{
+        position: relative;
+        left:70px; 
+        top: 150px;
+        text-align: center;
+        justify-content: center;
+        color: coral;
+    }
+    #fake_gio{
+        position: relative;
+        left:40px; 
+    }
+    .TieuDe{
+        position: relative;
+        left:-30px; 
+        top: 150px;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    #mau1,#mau2,#mau3,#mau4,#mau5 {
+        /* width: 50%; */
+        position: relative;
+        /* left: -40px; */
+        display: inline-block;
+
+    }
+    #size1, #size2, #size3, #size4, #size5{
+        /* width: 50%; */
+        display: inline-block;
+    }
+    #thu1{
+        /* position: relative; */
+       /* margin-top: 500px; */
+        margin-left: 10px;
+        margin-top: 300px;
+    }
+    #thu2{
+       
+       margin-left: 140px;
+       margin-top: 300px;
+
+   }
+   #thu3{
+       
+       margin-left: 260px;
+       margin-top: 300px;
+
+   }
+   #thu4{
+       
+       margin-left: 10px;
+       margin-top: 420px;
+
+   }
+   #thu5{
+       
+       margin-left: 130px;
+       margin-top: 420px;
+
+   }
+
+    .soluong{
+        position: relative;
+        /* left: -50px; */
+        font-size: 17px;
+    }
+    #cong, #tru,#so {
+        position: relative;
+        left: -30px;
+    
+    }
+    .GioiThieu{
+        position: relative;
+        left: -30px;
+        font-size: 17px;
+        display: block;
+    }
+    #img_chinh{
+        position: relative;
+        width: 150px;
+        height: 150px;
+        display: inline-block;
+        left: 30px;
+        top: 150px;
+    }
+    .magnify .magnifier {
+            height: 50px;
+            width: 50px;
+            display: none;
+    }
+    footer {
+        padding: 20px;
+        position: relative;
+        /* padding-top: 100px; */
+        /* margin-top: 1800px; */
+        /* top: -100px; */
+        width: 100%;
+        top: 150px;
+    }
+    footer .container {
+        flex-direction: column;
+    }
+    footer .container .noi-dung {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    footer .container,
+    .noi-dung.about,
+    .links,
+    .contact {
+        width: 100%;
+    }
+    div .container p {
+        display: inline-block;
+        width: 40%;
+    }
+    #fake_gio{
+        position: relative;
+        right: 20px;
+        width: 10%;
+    }
+    
+    .img_img{
+        display: block;
+        position: relative;
+        top:-200px;
+        left: 200px;
+        top: -200px;
+    }
+    #img_fake{
+        position: relative;
+        top: 300px;
+        left: -185px;
+        width: 190%;
+        height: 400px;
+    }
+    .td_left {
+        width: 100%;
+        position: relative;
+        left: 0px;
+        top: 700px;
+        font-size: 17px;
+        display: block; 
+    }
+    .td_left #Gia{
+        font-size: 20px;
+        position: relative;
+        left: -100px;
+        display: block;
+
+    }
+    .td_right{
+        position: relative;
+        left: 10px;
+        display: block;
+    }
+    #hr{
+        width: 170%;
+        margin-left: -10px ;
+    }
+    .td_left{
+        display: block;
+        position: relative;
+        top: 700px;
+        width: 100%;
+    }
+    .giohang{
+        width: 1%;
+        position: relative;
+        
+        
+    }
+   .radio_left{
+    position: relative;
+    width: 75%;
+    left: -40px;
+    top: 15px;
+    display: inline-block;
+   }
+   #dn{
+    display: none;
+   }
+   .Vay{
+        display: grid;
+         grid-template-columns: 40% 40% ;
+         grid-column-gap: 20px;
+         margin-top:100px;
+         margin-left: 90px;
+   }
+   #submit{
+    position: relative;
+    top: -1px;
+    width: 15%;
+   }
+   #box_soluong{
+       display: grid;
+       grid-template-columns: 40% 60% ;
+   }
+   
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+    .header{
+        width: 80%;
+         height: 80px;
+         margin-left: 0px;
+         display: grid;
+         grid-template-columns: 10% 60% 10%;
+         /* grid-column-gap: -20px; */
+         text-align: center;
+         justify-content: center;
+        } 
+        h2{
+            display: none;
+        }
+        #post{
+            margin-top: -60px;
+        }
+    .magnify{
+        display: none;
+    }
+   .tr{
+    /* display: none; */
+   }
+   .test_soluong{
+        width: 100%;
+     /* border: 1px solid black; */
+     /* width: 113.5px; */
+     height:33px;
+    
+     margin-top:30px;
+     margin-left: 20px;
+    }
+    *{
+       margin: 0;
+    }
+    bode{
+        width: 100%;
+    }
+    .conterner{
+        display: flex;
+        flex-direction: column;
+    }
+    td #zoom{
+        width: 500px;
+    }
+    .conterner{
+        width: 100%;
+    }
+    .img{
+        /* position: relative;
+        left: 10px;
+        top: 10px; */
+    }
+    .Vay {
+        /* margin-top: 700px; */
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 550px;
+ 
+    }
+    .img_vay{
+         /* margin-top: 700px; */
+/*          
+         display: flex;
+         flex-direction: column; */
+         width: 40%;
+        display: inline-block;
+    }
+    #hr{
+        position: relative;
+        top: 00px;
+    }
+    .test{
+      
+        width: 30%;
+        position: relative;
+        left: -140px;
+        top: 750px;
+        display: inline-block;
+        
+        
+    }
+   #gio{
+    position: relative;
+        /* left: -140px; */
+        top: -75px;
+   }
+  
+    #img{
+        width: 100%;
+        height: 350px;
+        position: relative;
+        top: 50px;
+    }
+    .magnifier{
+        display: none;
+    }
+    .td_left .title_ten{
+        position: relative;
+        left: -18%;
+        font-size: 20px;
+        display: block;
+        width: 50%;
+    }
+    #Them{
+        width: 45%;
+        /* position: fixed; */
+        margin-left: -70px;
+        margin-bottom: 100px;
+        bottom: 0px;
+        z-index: 1000000;
+         border-radius: 5px;
+        
+    }
+    #Mua{
+        width: 35%;
+
+        /* position: fixed; */
+        right: 0px;
+        bottom:0px;
+
+        z-index: 1000000;
+    border-radius: 5px;
+
+    }
+    #đ{
+        position: relative;
+        left: 180px;
+        top:-36px;
+    }
+    input[type="radio"]{
+        width: 10%;
+    }
+    hr{
+        position: relative;
+        left: 0px;
+        top: 150px;
+        width: 80%;
+    }
+    #Gia{
+        position: relative;
+        right:-150px; 
+        /* top: 150px; */
+        /* text-align: center;
+        justify-content: center; */
+    }
+    #đ{
+        position: relative;
+        right:-150px; 
+    }
+    #fake_gio{
+        position: relative;
+        left:40px; 
+    }
+    .TieuDe{
+        position: relative;
+        left:-30px; 
+        top: 150px;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    #mau1,#mau2,#mau3,#mau4,#mau5 {
+        /* width: 50%; */
+        position: relative;
+        /* left: -40px; */
+        display: inline-block;
+
+    }
+    #size1, #size2, #size3, #size4, #size5{
+        /* width: 50%; */
+        display: inline-block;
+    }
+    #thu1{
+        /* position: relative; */
+       /* margin-top: 500px; */
+        margin-left: 10px;
+        margin-top: 650px;
+    }
+    #thu2{
+       
+       margin-left: 140px;
+       margin-top: 650px;
+
+   }
+   #thu3{
+       
+       margin-left: 260px;
+       margin-top: 650px;
+
+   }
+   #thu4{
+       
+       margin-left: 380px;
+       margin-top: 650px;
+
+   }
+   #thu5{
+       
+       margin-left: 500px;
+       margin-top: 650px;
+
+   }
+
+    .soluong{
+        position: relative;
+        /* left: -50px; */
+        font-size: 17px;
+    }
+    #cong, #tru,#so {
+        position: relative;
+        left: -30px;
+    
+    }
+    .GioiThieu{
+        position: relative;
+        left: 0px;
+        font-size: 17px;
+        display: block;
+    }
+    #img_chinh{
+        position: relative;
+        width: 150px;
+        height: 150px;
+        display: inline-block;
+        left: 30px;
+        top: 150px;
+    }
+    .magnify .magnifier {
+            height: 50px;
+            width: 50px;
+            display: none;
+    }
+    footer {
+        padding: 20px;
+        position: relative;
+        /* padding-top: 100px; */
+        /* margin-top: 1800px; */
+        /* top: -100px; */
+        width: 100%;
+        top: 300px;
+    }
+    footer .container {
+        flex-direction: column;
+    }
+    footer .container .noi-dung {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    footer .container,
+    .noi-dung.about,
+    .links,
+    .contact {
+        width: 100%;
+    }
+    div .container p {
+        display: inline-block;
+        width: 40%;
+    }
+    #fake_gio{
+        position: relative;
+        right: 20px;
+        width: 10%;
+    }
+    #dn{
+        display: none;
+    }
+    .img_img{
+        display: block;
+        position: relative;
+        top:-200px;
+        left: 200px;
+        top: -200px;
+    }
+    #img_fake{
+        position: relative;
+        top: 300px;
+        left: -185px;
+        width: 390%;
+        height: auto;
+    }
+    .td_left {
+        width: 100%;
+        position: relative;
+        left: 0px;
+        top: 700px;
+        font-size: 17px;
+        display: block; 
+        text-align: center;
+        justify-content: center;
+    }
+    .td_left #Gia{
+        font-size: 20px;
+        position: relative;
+        left: -100px;
+        display: block;
+
+    }
+    .td_right{
+        position: relative;
+        left: 10px;
+        display: block;
+    }
+    #hr{
+        width: 200%;
+        margin-left: -50px ;
+    }
+    .td_left{
+        display: block;
+        position: relative;
+        top: 850px;
+        width: 100%;
+    }
+    .giohang{
+        width: 1%;
+        position: relative;
+        
+        
+    }
+   .radio_left{
+    position: relative;
+    width: 75%;
+    left: -40px;
+    top: 15px;
+    display: inline-block;
+   }
+   .title{
+    margin-left: 40px;
+   }
+   #box_soluong{
+        width: 100%;
+       margin-top: 50px;
+   }
+   .Vay{
+    width: 100%;
+        display: grid;
+         grid-template-columns: 17% 17% 17% 17% 17%;
+         grid-column-gap: 15px;
+         margin-top:50px;
+        margin-left: 100px;
+        /* margin-bottom: 100px; */
+   }
+   .gia{
+    position: relative;
+    top: 160px;
+    left: 100px;
+    color: coral;
+   }
+   .soluong {
+    margin-left: -200px;
+    margin-top: 10px;
+   }
+  
+}
